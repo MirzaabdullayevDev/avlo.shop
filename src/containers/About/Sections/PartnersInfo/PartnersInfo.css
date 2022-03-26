@@ -1,0 +1,45 @@
+.PartnersInfo {
+  padding-top: 44px;
+  padding-bottom: 82px;
+}
+
+.PartnersInfo .PartnersTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 66px;
+  color: #262729;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.PartnersInfo .Deli {
+  width: 75%;
+}
+
+.PartnersInfo .PartnersImg {
+  width: 100%;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+}
+
+/* media md */
+@media (max-width: 991px) {
+}
+
+/* media sm */
+@media (max-width: 767px) {
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .PartnersInfo .PartnersTitle{
+      margin-top: 34px;
+  }
+}

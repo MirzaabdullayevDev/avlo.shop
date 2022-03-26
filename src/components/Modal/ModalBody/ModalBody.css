@@ -1,0 +1,379 @@
+.ModalBody {
+  position: fixed;
+  top: 20%;
+  bottom: 20%;
+  background: #ffffff;
+  border-radius: 15px;
+  font-family: "Rubik";
+  padding: 30px 110px 61px 110px;
+  height: 565px;
+  width: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 101px 61px 50px;
+}
+
+.ModalBody.close {
+  top: -150%;
+  bottom: unset;
+}
+
+.ModalBody.open {
+  bottom: 25%;
+  top: 20%;
+}
+
+.ModalContainer {
+  /* display: none; */
+}
+
+.ModalBody .ModalTitle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 66px;
+  color: #262729;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.ModalBody .ModalFlex {
+  align-items: center;
+}
+
+.ModalBody .ModalImg {
+  padding-bottom: 20px;
+}
+
+.ModalBody .ModalImg img {
+  width: 100%;
+}
+
+.ModalBody .ModalInfo {}
+
+.ModalBody .InpText {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #262729;
+  margin-bottom: 15px;
+}
+
+.ModalBody .DropInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid rgba(38, 39, 41, 0.1);
+  box-sizing: border-box;
+  border-radius: 500px;
+  margin-bottom: 6px;
+}
+
+.ModalBody .DropdownToggle {
+  padding: 12px 15px 10px 18px;
+  background: transparent !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(38, 39, 41, 0.5) !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ModalBody .DropdownToggle:hover {
+  background: none;
+  color: rgba(38, 39, 41, 0.5);
+}
+
+.ModalBody .NumInp {
+  height: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(38, 39, 41, 0.5);
+  border: none;
+  outline: none !important;
+  margin-right: auto;
+}
+
+.ModalBody hr {
+  margin: 0px;
+  transform: rotate(90deg);
+  width: 8%;
+}
+
+.ModalBody .ModalPass {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #262729;
+  margin-bottom: 10px;
+}
+
+.ModalBody .PassInp {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(38, 39, 41, 0.1);
+  box-sizing: border-box;
+  border-radius: 500px;
+  font-size: 15px;
+  padding: 12px 0 10px 19px;
+  outline: none;
+  margin-bottom: 14px;
+}
+
+.ModalBody .ModalCheck {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #262729;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 34px;
+}
+
+.ModalBody .CheckInp {
+  width: 25px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-right: 15px;
+}
+
+.ModalBody .ModalBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.ModalBody .ModalBottom span {
+  margin-top: 14px;
+}
+
+.ModalBody .ModalBottomLink {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-top: 14px;
+  font-weight: 500;
+  color: #6b4dff;
+}
+
+.ModalBody .ModalBottomLinkBlack {
+  font-weight: normal;
+  color: #262729 !important;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-top: 14px;
+}
+
+.ModalBody .Times {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ModalBody .Times button {
+  background: transparent;
+  border: none;
+  margin-right: auto;
+  font-size: 20px;
+  display: none;
+  color: #22262A;
+}
+
+.ModalBody .NumberLabel {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #808183;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.ModalBody .ModalBtn {
+  background: #ff4a2e;
+  border: 1px solid #ff4a2e;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 15px 65px;
+  text-decoration: none !important;
+}
+
+.ModalBody.ForHeight {
+  height: 655px;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+  .ModalBody {
+    height: 550px;
+    top: 17%;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 80px 61px 80px;
+  }
+
+  .ModalBody .ModalImg img {
+    width: 100%;
+  }
+
+  .ModalBody .ModalCheck {
+    margin-bottom: 0;
+  }
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .ModalBody {
+    height: 550px;
+    top: 17%;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 50px 61px 50px;
+  }
+
+  .ModalBody .ModalImg img {
+    width: 100%;
+  }
+
+  .ModalBody .ModalCheck {
+    margin-bottom: 0;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+  .ModalBody {
+    height: 580px;
+    width: 72%;
+    top: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 50px 61px 50px;
+  }
+
+  .ModalBody .ModalImg img {
+    width: 100%;
+  }
+
+  .ModalBody .ModalPass {
+    margin-top: 20px;
+  }
+
+  .ModalBody .InpText {
+    margin-top: 22px;
+  }
+
+  .ModalBody .ModalCheck {
+    margin-bottom: 0;
+  }
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .ModalBody {
+    height: 550px;
+    top: 16%;
+    width: 82%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 24px 21px 35px 21px;
+  }
+
+  .ModalBody .ModalImg img {
+    width: 100%;
+  }
+
+  .ModalBody .ModalPass {
+    margin-top: 20px;
+  }
+
+  .ModalBody .InpText {
+    margin-top: 22px;
+  }
+
+  .ModalBody .ModalCheck {
+    margin-bottom: 0;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .ModalBody {
+    height: 500px !important;
+    width: 96%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 14px 11px 39px 11px;
+  }
+
+  .ModalBody .PassInp {
+    margin-bottom: 0;
+  }
+
+  .ModalBody .ModalImg img {
+    width: 100%;
+  }
+
+  .ModalBody .ModalCheck {
+    margin-bottom: 0;
+  }
+
+  .ModalBody .ModalTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .ModalBody .ModalPass {
+    margin-top: 10px;
+  }
+
+  .ModalBody .InpText {
+    margin-top: 10px;
+  }
+
+  .ModalBody .Times button {
+    display: block;
+  }
+
+  .ModalBody .ModalTitle {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 325px) {
+  .ModalBody.open {
+    top: 10% !important;
+  }
+}

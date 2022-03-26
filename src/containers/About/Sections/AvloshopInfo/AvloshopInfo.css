@@ -1,0 +1,97 @@
+.AvloshopInfo {
+  background: #f0f0f0;
+  padding-top: 28px;
+  padding-bottom: 111px;
+}
+
+.AvloshopInfo .AvloshopRow {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.AvloshopInfo .AvloshopRow:first-child {
+  margin-bottom: 67px;
+}
+
+.AvloshopInfo .AvloinfoLeft img {
+  width: 100%;
+}
+
+.AvloshopInfo .AvloinfoRight img {
+}
+
+.AvloshopInfo .AvloRightTitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 39px;
+  color: #262729;
+  margin-bottom: 29px;
+}
+
+.AvloshopInfo .AvloRightText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(38, 39, 41, 0.76);
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+}
+
+/* media md */
+@media (max-width: 991px) {
+  .AvloshopInfo {
+    padding-bottom: 60px;
+  }
+  .AvloshopInfo .AvloshopRow:last-child div:first-child {
+    order: 0 !important;
+    margin-bottom: 20px;
+  }
+  .AvloshopInfo .AvloshopRow:first-child .AvloinfoLeft {
+    margin-bottom: 25px;
+  }
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .AvloshopInfo {
+    padding-bottom: 60px;
+  }
+  .AvloshopInfo .AvloshopRow:last-child div:first-child {
+    order: 0 !important;
+    margin-bottom: 20px;
+  }
+  .AvloshopInfo .AvloshopRow:first-child .AvloinfoLeft {
+    margin-bottom: 25px;
+  }
+  .AvloshopInfo {
+    background-color: #fff;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .AvloshopInfo {
+    padding-top: 56px;
+    padding-bottom: 0px;
+  }
+  .AvloshopInfo .AvloshopRow:last-child div:first-child {
+    order: 0 !important;
+    margin-bottom: 21px;
+  }
+  .AvloshopInfo .AvloshopRow:first-child .AvloinfoLeft {
+    margin-bottom: 35px;
+  }
+  .AvloshopInfo {
+    background-color: #fff;
+  }
+  .AvloshopInfo .AvloinfoLeft{
+  }
+}

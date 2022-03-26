@@ -1,0 +1,10 @@
+.BtnSelection {
+    border: 1px solid;
+    box-sizing: border-box;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 13px 43px;
+    background: transparent;
+    text-align: center;
+}

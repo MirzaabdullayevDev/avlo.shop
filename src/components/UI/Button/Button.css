@@ -1,0 +1,11 @@
+.BuyBtn {
+  background: #ff4a2e;
+  border: 1px solid #ff4a2e;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}

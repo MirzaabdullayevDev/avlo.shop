@@ -1,0 +1,184 @@
+.MessageCard {
+  background: #6b4dff;
+  border-radius: 15px;
+  padding: 43px 50px;
+}
+
+.MessageCardCol {
+  padding-left: 50px;
+}
+
+.MessageCard .CardTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.MessageCard .CardText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+
+.MessageCard hr {
+  background: #ffffff;
+  opacity: 0.2;
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.MessageCard .CardInform {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.MessageCard .CardInform:last-child {
+  margin-bottom: 0;
+}
+
+.MessageCard .LocationIcon {
+  color: #fff;
+  font-size: 25px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: rgba(38, 39, 41, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  border: none;
+  transition: all .33s ease-in;
+}
+
+.MessageCard .CardInform:hover .LocationIcon {
+  color: #6b4dff;
+  background: #fff;
+}
+
+.MessageCard .BoxInform a {
+  display: block;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0;
+  text-decoration: none !important;
+}
+
+.MessageCard a:hover {
+  text-decoration: underline;
+}
+
+.MessageCard .InfoTextTop {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+  .MessageCardCol {
+    padding-left: 12px;
+  }
+
+  .MessageCard {
+    padding: 43px 50px;
+  }
+
+  .MessageCard .LocationIcon {
+    margin-right: 15px;
+  }
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .MessageCardCol {
+    padding-left: 12px;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+  .MessageCardCol {
+    padding-left: 52px;
+  }
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .MessageCardCol {
+    padding-left: 12px;
+  }
+
+  .MessageCard {
+    padding: 43px 50px;
+  }
+
+  .MessageCard .LocationIcon {
+    margin-right: 20px;
+  }
+
+  .MessageCard .BoxInform a {
+    font-size: 12px;
+  }
+
+  .MessageCard .CardTitle {
+    font-size: 27px;
+  }
+
+  .MessageCard .CardText {
+    font-size: 14px;
+  }
+
+  .MessageCard hr {
+    margin-bottom: 25px;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .MessageCardCol {
+    padding-left: 12px;
+  }
+
+  .MessageCard {
+    padding: 43px 50px;
+  }
+
+  .MessageCard .LocationIcon {
+    width: 50px;
+    height: 49px;
+    margin-right: 25px;
+  }
+
+  .MessageCard .BoxInform a {
+    font-size: 14px;
+  }
+
+  .MessageCard .CardTitle {
+    font-size: 27px;
+  }
+
+  .MessageCard .CardText {
+    font-size: 14px;
+  }
+
+  .MessageCard hr {
+    margin-bottom: 25px;
+  }
+}

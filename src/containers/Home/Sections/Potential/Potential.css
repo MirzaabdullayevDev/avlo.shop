@@ -1,0 +1,114 @@
+.Potential {
+  background: #f3f4f6;
+  padding-top: 67px;
+  padding-bottom: 80px;
+}
+
+.Potential .TitlePotential {
+  color: #262729;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 66px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 75px;
+}
+
+.Potential .Box {
+  width: 100%;
+  height: 73px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.Potential .BoxText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  margin: 0;
+  text-align: start;
+}
+
+.Potential .BoxIcon {
+  margin-right: 20px;
+}
+
+.Potential .FirstRow {
+  margin-bottom: 45px;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+  .Potential .BoxText {
+    padding: 0 15px;
+  }
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .Potential .FirstRow {
+    margin-bottom: 0;
+  }
+  .Potential .Box {
+    margin-bottom: 30px;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+  .Potential {
+    padding-bottom: 50px;
+  }
+  .Potential .Box {
+    margin-bottom: 35px;
+  }
+  .Potential .FirstRow {
+    margin-bottom: 0;
+  }
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .Potential {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+  .Potential .TitlePotential {
+    font-size: 30px;
+    margin-bottom: 55px;
+  }
+  .Potential .Box {
+    margin-bottom: 25px;
+  }
+  .Potential .FirstRow {
+    margin-bottom: 0;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .Potential {
+    padding-top: 35px;
+    padding-bottom: 47px;
+  }
+  .Potential .TitlePotential {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+  .Potential .Box {
+    margin-bottom: 18px;
+  }
+  .Potential .FirstRow {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,39 @@
+.HomeBg {
+  background-position: -11% 0;
+  background-repeat: no-repeat;
+  background-size: 70% 95%;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .HomeBg {
+    background-size: 70% 100%;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+  .HomeBg {
+    background-size: 70% 75%;
+  }
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .HomeBg {
+    background-size: 78% 72%;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .HomeBg {
+    background-position: -11% 0;
+    background-repeat: no-repeat;
+    background-size: 79% 85%;
+  }
+}

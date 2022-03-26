@@ -1,0 +1,175 @@
+.PriceScope {
+  padding-top: 65px;
+  padding-bottom: 64px;
+}
+
+.PriceScope .ScopeTitle {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #262729;
+  margin-bottom: 10px;
+}
+
+.PriceScope .ListTitles {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.PriceScope .LsTitleLeft {
+}
+
+.PriceScope .LsTitleRight {
+  width: 30%;
+  padding: 19px 0 19px 21px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.56px;
+  color: #19191b;
+}
+
+.PriceScope .LsTitleCenter {
+  width: 30%;
+  padding: 19px 0 19px 21px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.56px;
+  color: #19191b;
+}
+
+.PriceScope .Lists {
+}
+
+.PriceScope .ListItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.PriceScope .ListItemLeft {
+  width: 40%;
+  background: #f7f7fb;
+  padding: 19px 0 19px 21px;
+  margin-right: 3px;
+}
+
+.PriceScope .ListItemCenter {
+  width: 30%;
+  background: #f7f7fb;
+  padding: 19px 0 19px 21px;
+  margin-right: 3px;
+}
+
+.PriceScope .ListItemRight {
+  width: 30%;
+  background: #f7f7fb;
+  padding: 19px 0 19px 21px;
+}
+
+.Warning {
+  font-size: 18px;
+
+  color: #eb5757;
+}
+
+.Success {
+  font-size: 18px;
+  color: #27ae60;
+}
+
+.ListBtns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ListBtns .Btn {
+  width: 30%;
+  padding-top: 19px;
+  text-align: center;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .ListBtns .Btn {
+    width: 30%;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .ListBtns .Btn button {
+    font-size: 13px;
+    padding: 18px 38px;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .PriceScope {
+    padding-top: 22px;
+    padding-bottom: 50px;
+  }
+  .PriceScope .ScopeTitle {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2.5px;
+  }
+  .PriceScope .ListItemLeft {
+    width: 49%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    padding: 17px 0 17px 8px;
+  }
+  .PriceScope .ListItemCenter {
+    padding: 19px 0 19px 10px;
+    width: 26%;
+  }
+  .PriceScope .ListItemRight {
+    width: 25%;
+  }
+  .ListBtns .Btn {
+    width: 28%; 
+    text-align: center;
+  }
+  .ListBtns .Btn button {
+    font-size: 13px;
+    padding: 10px 10px;
+  }
+  .PriceScope .ScopeTitle {
+    padding: 0 16px;
+  }
+  .PriceScope .LsTitleRight{
+    text-align: center;
+  }
+  .PriceScope .LsTitleCenter{
+    text-align: center;
+  }
+}

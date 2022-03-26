@@ -1,0 +1,45 @@
+.Offers {
+    background: #f3f4f6;
+}
+
+.BuyCards {
+    padding-top: 81px;
+    padding-bottom: 75px;
+}
+
+.BuyCards .OfferTitle {
+    text-align: center;
+    margin-top: -14px;
+    margin-bottom: 64px;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+
+  }
+  
+  /* media lg */
+  @media (max-width: 1199px) {
+
+  }
+  
+  /* media md */
+  @media (max-width: 991px) {
+
+  }
+  
+  /* media sm */
+  @media (max-width: 767px) {
+
+  }
+  
+  /* media xs */
+  @media (max-width: 575px) {
+    .BuyCards .OfferTitle{
+        margin-bottom: 31px;
+        padding: 0 16px;
+    }
+    .BuyCards {
+        padding-top: 46px;
+    }
+  }

@@ -1,0 +1,165 @@
+.Header {
+}
+
+.Header .ContentRow {
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position-x: 101%;
+  background-position-y: 9%;
+  justify-content: start;
+}
+
+.Header .ContentBlock {
+}
+
+.Header .TitleContent {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  padding: 0;
+  font-size: 56px;
+  line-height: 71px;
+  margin-top: 115px;
+  margin-bottom: 0;
+  margin-bottom: 33px;
+}
+
+.Header .TextContent {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.Header .BtnContent {
+  padding: 20px 36px;
+  background: #ff4a2e;
+  box-shadow: 0px 4px 25px rgba(255, 87, 34, 0.33);
+  border: none;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 33px;
+}
+
+.Header .ContentImg {
+}
+
+.Header .ContentSlider {
+  margin-top: 115px;
+  margin-bottom: 181px;
+}
+
+.Header .ContentSlider img {
+  width: 100%;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+  .Header .TitleContent {
+    margin-top: 150px;
+  }
+  .Header .ContentSlider {
+    margin-top: 150px;
+  }
+  .Header .ContentRow {
+    background-position-x: 103%;
+    background-position-y: 16%;
+  }
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .Header .TitleContent {
+    margin-top: 120px;
+  }
+  .Header .ContentSlider {
+    margin-top: 120px;
+  }
+  .Header .BtnContent {
+    margin-top: 15px;
+  }
+  .Header .ContentRow {
+    background-position-x: 102%;
+    background-position-y: 15%;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+  .Header .TitleContent {
+    margin-top: 80px;
+  }
+  .Header .ContentSlider {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .Header .ContentRow {
+    background-position-x: 90%;
+    background-position-y: 52%;
+  }
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .Header .TitleContent {
+    margin-top: 65px;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .Header .BtnContent {
+    margin-top: 15px;
+  }
+  .Header .ContentSlider {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  .Header .ContentRow {
+    background-position-x: 112%;
+    background-position-y: 53%;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .Header .TitleContent {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 35px;
+    margin-bottom: 18px;
+    padding-right: 20px;
+  }
+  .Header .TextContent {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .Header .BtnContent {
+    margin-top: 0;
+  }
+  .Header .ContentSlider {
+    margin-top: 31px;
+    margin-bottom: 0;
+  }
+  .Header .ContentRow {
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: 62%;
+    justify-content: start;
+  }
+  .Header .TextContent {
+    padding-right: 42px;
+  }
+}

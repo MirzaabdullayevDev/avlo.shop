@@ -1,0 +1,86 @@
+.AboutHeader {
+  margin-top: 44px;
+}
+
+.ConteinerBlock {
+}
+
+.AboutSpan {
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 27px;
+}
+
+.AboutTitle {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 39px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.AboutText {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.RightBtn {
+}
+
+.NoneBtn {
+  display: none !important;
+}
+
+.AboutImg {
+  text-align: end;
+  padding-right: 10px;
+}
+
+.AboutImg img {
+  width: 100%;
+}
+
+
+/* media xl */
+@media (max-width: 1399px) {
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .AboutImg {
+    margin-top: 55px;
+  }
+  .AboutHeader {
+    margin-top: 35px;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+
+}
+
+/* media sm */
+@media (max-width: 767px) {
+
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .AboutTitle{
+    padding-right: 36px;
+  }
+  .AboutText {
+    padding-right: 46px;
+  }
+}

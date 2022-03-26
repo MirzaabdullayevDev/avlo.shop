@@ -1,0 +1,42 @@
+.About {
+  background-position: -11% 0;
+  background-repeat: no-repeat;
+  background-size: 70% 80%;
+  background-color: #f0f0f0;
+}
+
+/* media xl */
+@media (max-width: 1399px) {
+  .About {
+    background-size: 73% 80%;
+  }
+}
+
+/* media lg */
+@media (max-width: 1199px) {
+  .About {
+    background-size: 72% 80%;
+  }
+}
+
+/* media md */
+@media (max-width: 991px) {
+  .About {
+    background-size: 78% 72%;
+  }
+}
+
+/* media sm */
+@media (max-width: 767px) {
+  .About {
+    background-color: #fff;
+    background-size: 78% 80%;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .About {
+    background-size: 78% 80%;
+  }
+}

@@ -1,0 +1,33 @@
+.BuyCard {
+  padding-top: 81px;
+  padding-bottom: 75px;
+}
+
+.BuyCardBtn {
+  text-align: center;
+  margin-top: 48px;
+}
+
+/* media xl */
+@media (max-width: 1399px) {}
+
+/* media lg */
+@media (max-width: 1199px) {}
+
+/* media md */
+@media (max-width: 991px) {}
+
+/* media sm */
+@media (max-width: 767px) {
+  .BuyCard {
+    padding-bottom: 55px;
+  }
+}
+
+/* media xs */
+@media (max-width: 575px) {
+  .BuyCard {
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+}

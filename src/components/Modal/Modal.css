@@ -1,0 +1,22 @@
+.Modal {}
+
+.ModalBg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    opacity: 0.5;
+    /* display: none; */
+    transition: all .22s ease-in-out;
+}
+
+.ModalBg.close {
+    opacity: 0;
+    display: none;
+}
+
+.ModalBg.open {
+    display: block;
+}
